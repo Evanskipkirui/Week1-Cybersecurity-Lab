@@ -58,10 +58,15 @@ Security-tool experimentation
 The lab is built on an isolated VirtualBox NAT Network (`10.0.0.0/24`). 
 
 **[ Ubuntu Host Machine ]**
+
   └── **VirtualBox Hypervisor**
+  
         └── **NAT Network (10.0.0.0/24)**
+        
               └── **[ Kali Linux VM ]** (IP: 10.0.0.2/24)
+              
                     ├── Gateway: 10.0.0.1
+                    
                     └── DNS: 8.8.8.8
 
 *Future target machines (Windows/Android) can be added to this same NAT Network (e.g., 10.0.0.10, 10.0.0.11).*
