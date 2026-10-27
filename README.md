@@ -121,7 +121,8 @@ The lab consists of a Host OS running VirtualBox, which hosts a Kali Linux Virtu
 
 . Network Configuration: Configured the static IP 10.0.0.2/24 inside Kali using the nmcli command-line tool.
 
-<img width="1854" height="965" alt="Screenshot_2026-10-27_07_18_25" src="https://github.com/user-attachments/assets/d0997844-b1fa-4de2-9f10-4cb7876eeb75" />
+<img width="1854" height="965" alt="Screenshot_2026-10-27_07_18_07" src="https://github.com/user-attachments/assets/8405d122-c3fe-4416-a9c5-6de455d604cf" />
+
 
 . Snapshot: Created a clean snapshot named Phase 1 - Complete to serve as a baseline recovery point.
 
