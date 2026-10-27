@@ -14,42 +14,42 @@ The purpose of the lab is to create a controlled environment where cybersecurity
 
 The main objectives of this project are to:
 
-Install and configure VirtualBox.
+. Install and configure VirtualBox.
 
-Install/import Kali Linux as a virtual machine.
+. Install/import Kali Linux as a virtual machine.
 
-Create a private NAT Network for the cybersecurity lab.
+. Create a private NAT Network for the cybersecurity lab.
 
-Configure network connectivity for Kali Linux.
+. Configure network connectivity for Kali Linux.
 
-Assign a consistent IP address to the Kali VM.
+. Assign a consistent IP address to the Kali VM.
 
-Verify network connectivity and DNS resolution.
+. Verify network connectivity and DNS resolution.
 
-Take a clean VM snapshot for recovery.
+. Take a clean VM snapshot for recovery.
 
-Document the complete setup process.
+.Document the complete setup process.
 
-Prepare the environment for future cybersecurity projects.
+. Prepare the environment for future cybersecurity projects.
 
 🛡️ Purpose of the Lab
 The lab provides an isolated and controlled environment for cybersecurity learning and authorized security testing.
 
 It can be used for activities such as:
 
-Network reconnaissance
+. Network reconnaissance
 
-Port scanning
+. Port scanning
 
-Vulnerability assessment
+. Vulnerability assessment
 
-Packet analysis
+. Packet analysis
 
-Web security testing
+. Web security testing
 
-Exploitation practice
+. Exploitation practice
 
-Security-tool experimentation
+. Security-tool experimentation
 
 ⚠️ Important: This laboratory must only be used for systems that you own or have explicit permission to test. Do not use the lab or its tools to attack unauthorized systems.
 
@@ -101,19 +101,27 @@ The lab consists of a Host OS running VirtualBox, which hosts a Kali Linux Virtu
 
 🪜 Lab Setup Procedure
 
-VirtualBox Installation: Installed VirtualBox via the official Oracle repository using the Ubuntu terminal.
+. VirtualBox Installation: Installed VirtualBox via the official Oracle repository using the Ubuntu terminal.
 
-NAT Network Creation: Created a dedicated NAT Network named NatNetwork with the IPv4 Prefix set to 10.0.0.0/24 and DHCP enabled.
+. NAT Network Creation: Created a dedicated NAT Network named NatNetwork with the IPv4 Prefix set to 10.0.0.0/24 and DHCP enabled.
 
-Kali Linux Import: Downloaded the official Kali Linux VirtualBox image (.7z), extracted it using p7zip, and imported the .vbox file into VirtualBox.
+<img width="1836" height="1011" alt="Screenshot from 2026-10-27 14-08-17" src="https://github.com/user-attachments/assets/bd50edd1-851b-4f1c-ad2e-6a5d6770297d" />
 
-VM Configuration: Configured the VM to use the NAT Network, allocated Base Memory, and enabled bi-directional Clipboard and Drag-and-Drop.
+. Kali Linux Import: Downloaded the official Kali Linux VirtualBox image (.7z), extracted it using p7zip, and imported the .vbox file into VirtualBox.
 
-Shared Folders: Added a shared folder named downloads pointing to the Ubuntu /home/evans/Downloads directory with Auto-mount enabled.
+<img width="1836" height="1011" alt="Screenshot from 2026-10-27 14-15-20" src="https://github.com/user-attachments/assets/149eaf6b-69b8-4389-b0ec-a064cebed56b" />
 
-Network Configuration: Configured the static IP 10.0.0.2/24 inside Kali using the nmcli command-line tool.
+. VM Configuration: Configured the VM to use the NAT Network, allocated Base Memory, and enabled bi-directional Clipboard and Drag-and-Drop.
 
-Snapshot: Created a clean snapshot named Phase 1 - Complete to serve as a baseline recovery point.
+<img width="1854" height="965" alt="Screenshot_2026-10-27_07_18_07" src="https://github.com/user-attachments/assets/adfa2fbf-79ee-464c-8d30-5c4361367852" />
+
+. Shared Folders: Added a shared folder named downloads pointing to the Ubuntu /home/evans/Downloads directory with Auto-mount enabled.
+
+. Network Configuration: Configured the static IP 10.0.0.2/24 inside Kali using the nmcli command-line tool.
+
+<img width="1854" height="965" alt="Screenshot_2026-10-27_07_18_25" src="https://github.com/user-attachments/assets/d0997844-b1fa-4de2-9f10-4cb7876eeb75" />
+
+. Snapshot: Created a clean snapshot named Phase 1 - Complete to serve as a baseline recovery point.
 
 🔎 Lab Verification
 
@@ -149,15 +157,15 @@ Solution: Force-quit the frozen VirtualBox GUI. Rebooted Kali, shut the VM down 
 
 Through this project, I learned how to create and configure a virtual environment for cybersecurity practice. The most important concepts I learned include:
 
-NAT vs NAT Network: Understanding how a NAT Network allows multiple VMs to communicate with each other while sharing the host's internet connection.
+1. NAT vs NAT Network: Understanding how a NAT Network allows multiple VMs to communicate with each other while sharing the host's internet connection.
 
-Virtual Machine Networking: How VirtualBox virtual network adapters connect VMs to different types of networks.
+2. Virtual Machine Networking: How VirtualBox virtual network adapters connect VMs to different types of networks.
 
-Static IP Configuration: How to configure and verify IPv4 addressing, subnet masks, gateways, and DNS settings in Kali Linux.
+3. Static IP Configuration: How to configure and verify IPv4 addressing, subnet masks, gateways, and DNS settings in Kali Linux.
 
-VM Snapshots: The importance of creating a clean snapshot before performing risky operations to provide a known-good recovery point.
+4. VM Snapshots: The importance of creating a clean snapshot before performing risky operations to provide a known-good recovery point.
 
-Documentation: The importance of documenting commands, configuration, and troubleshooting steps for professional projects.
+5. Documentation: The importance of documenting commands, configuration, and troubleshooting steps for professional projects.
 
 🔗 Tools & Resources
 
@@ -175,21 +183,7 @@ Cybersecurity Intern
 
 Program Name: Cybersecurity at Networkwalks | Week: 01 | Project: Cybersecurity & Pentesting Lab Setup
 
-NAT Network
 
-<img width="1836" height="1011" alt="Screenshot from 2026-10-27 14-08-17" src="https://github.com/user-attachments/assets/bd50edd1-851b-4f1c-ad2e-6a5d6770297d" />
-
-Shared Folders
-
-<img width="1836" height="1011" alt="Screenshot from 2026-10-27 14-15-20" src="https://github.com/user-attachments/assets/149eaf6b-69b8-4389-b0ec-a064cebed56b" />
-
-IP Address
-
-<img width="1854" height="965" alt="Screenshot_2026-10-27_07_18_07" src="https://github.com/user-attachments/assets/adfa2fbf-79ee-464c-8d30-5c4361367852" />
-
-Ping Test
-
-<img width="1854" height="965" alt="Screenshot_2026-10-27_07_18_25" src="https://github.com/user-attachments/assets/d0997844-b1fa-4de2-9f10-4cb7876eeb75" />
 
 
 
