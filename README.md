@@ -109,11 +109,13 @@ The lab consists of a Host OS running VirtualBox, which hosts a Kali Linux Virtu
 
 . Kali Linux Import: Downloaded the official Kali Linux VirtualBox image (.7z), extracted it using p7zip, and imported the .vbox file into VirtualBox.
 
-<img width="1836" height="1011" alt="Screenshot from 2026-10-27 14-15-20" src="https://github.com/user-attachments/assets/149eaf6b-69b8-4389-b0ec-a064cebed56b" />
+<img width="1854" height="965" alt="Screenshot_2026-10-27_07_18_07" src="https://github.com/user-attachments/assets/adfa2fbf-79ee-464c-8d30-5c4361367852" />
+
 
 . VM Configuration: Configured the VM to use the NAT Network, allocated Base Memory, and enabled bi-directional Clipboard and Drag-and-Drop.
 
-<img width="1854" height="965" alt="Screenshot_2026-10-27_07_18_07" src="https://github.com/user-attachments/assets/adfa2fbf-79ee-464c-8d30-5c4361367852" />
+<img width="1836" height="1011" alt="Screenshot from 2026-10-27 14-15-20" src="https://github.com/user-attachments/assets/149eaf6b-69b8-4389-b0ec-a064cebed56b" />
+
 
 . Shared Folders: Added a shared folder named downloads pointing to the Ubuntu /home/evans/Downloads directory with Auto-mount enabled.
 
