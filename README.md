@@ -174,3 +174,22 @@ Kali Linux: https://kali.org/get-kali
 Cybersecurity Intern
 
 Program Name: Cybersecurity at Networkwalks | Week: 01 | Project: Cybersecurity & Pentesting Lab Setup
+
+NAT Network
+
+<img width="1836" height="1011" alt="Screenshot from 2026-10-27 14-08-17" src="https://github.com/user-attachments/assets/bd50edd1-851b-4f1c-ad2e-6a5d6770297d" />
+
+Shared Folders
+
+<img width="1836" height="1011" alt="Screenshot from 2026-10-27 14-15-20" src="https://github.com/user-attachments/assets/149eaf6b-69b8-4389-b0ec-a064cebed56b" />
+
+IP Address
+
+<img width="1854" height="965" alt="Screenshot_2026-10-27_07_18_07" src="https://github.com/user-attachments/assets/adfa2fbf-79ee-464c-8d30-5c4361367852" />
+
+Ping Test
+
+<img width="1854" height="965" alt="Screenshot_2026-10-27_07_18_25" src="https://github.com/user-attachments/assets/d0997844-b1fa-4de2-9f10-4cb7876eeb75" />
+
+
+
